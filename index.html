@@ -1,0 +1,28 @@
+<!-- Youtube tutorial source: https://youtu.be/H2aW5V46khA -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tetris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <div class="nav">
+        <div id="score"></div>
+        <button type="button" id="music-btn" value="PLAY" onclick="music()">Play Music</button>
+    </div>
+    <canvas id="tetris" width="240" height="400"></canvas>
+    <audio id="successFX" src="success.wav"></audio>
+    <audio id="landingFX" src="landing.wav"></audio>
+    <audio id="music" src="tetris.mp3"></audio>
+    <script src="tetris.js"></script>
+</body>
+
+</html>
